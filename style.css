@@ -1,0 +1,170 @@
+@import url('https://fonts.google.com/specimen/Roboto+Slab');
+*{
+    margin:0;
+    box-sizing:border-box; 
+    padding:0;
+}
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 14px;
+    font-size: 28px;
+    margin-right: 40px;
+}
+
+#logo img{
+    height:60px;
+    filter: invert(1);
+
+}
+
+
+#navbar{
+    background-color: rgb(236, 98, 98);
+    padding: 13px 14px;
+    font-family: 'Lacquer';
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /*justify-content: center;
+    font-family: 'Lacquer';*/
+    align-items: center;
+    
+    }
+#navbar li{
+    list-style: none;
+}
+#navbar li a{ 
+   text-decoration: none;
+   padding:13px 20px;
+   color:white;
+   font-size:30px;
+}
+
+#navbar li a:hover{     
+    color:black;
+
+ }
+
+
+#introSection{
+color:white;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items:center;
+font-family: 'Lacquer';
+font-size:65px;
+background: center/cover no-repeat url("../static/dance.jpg");
+height:425px;
+background-color:red;
+}
+
+#introSection div.small{
+    font-size:52px;
+    padding:5px;
+}
+
+#missionSection {
+    height: 326px;
+    width: 67%;
+    margin: auto;
+}
+
+#missionSection h2{
+    font-size: 42px;
+    text-align: center;
+    padding-top: 12px;
+    font-family: 'Lacquer'; 
+
+}
+
+.card{
+    display:inline-block;
+    border:2px solid black;
+    border-radius: 10px;
+    width:30%;
+    margin:23px 20px;
+    height:209px;
+}
+
+.card h3{
+    text-align: center;
+    margin:0 12px;
+    margin-top:24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.card-img{
+    height: 131px;
+    padding: 0 14px;
+    margin: 5px 9px;
+}
+
+.card-img img{
+    height: inherit;
+
+}
+
+.card-content{
+    padding: 0 10px;
+}
+
+.card-content p{
+    font-size: 19px;
+}
+
+#sponsorsSection {
+    height: 300px;
+    background-color: #e89a9a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center the content vertically */
+    align-items: center; /* Center the content horizontally */
+}
+
+#sponsorsSection h2 {
+    font-size: 42px;
+    text-align: center;
+    padding-bottom: 70px; /* Adds space between the heading and logos */
+    font-family: 'Lacquer';
+}
+
+#sponsers {
+    display: flex;
+    justify-content: space-between; /* Evenly space logos horizontally */
+    align-items: center;
+    width: 80%; /* Adjust width to keep the logos aligned */
+    max-width: 1000px; /* Constrain the maximum width for balance */
+    margin: 0 auto; /* Centers the whole section */
+}
+
+.spImage {
+    height: 170px; /* Set a fixed height for logos */
+    width: auto; /* Maintain the aspect ratio */
+}
+
+
+
+
+#footer{
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-family: "Lacquer";
+    height:60px;
+    background-color:black
+    
+
+}
